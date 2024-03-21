@@ -43,6 +43,7 @@ function gameEngine() {
         snakeArr = [{x:13,y:15}];
         // musicSound.play();
         score = 0;
+        scoreBox.innerHTML = "Score: " + score;
     }
     //sanke eats food
     if (snakeArr[0].y == food.y && snakeArr[0].x == food.x) {
